@@ -79,6 +79,13 @@ A vault is a directory (default `./.ghostvault`) containing:
 - `secrets.json`: the secret store, each entry an envelope-encrypted blob.
 - `audit.log`: append-only JSONL of operations (op, key id, timestamp, success).
 
+## Authorized use
+
+Use ghostvault only to manage keys and secrets you own or are authorized to
+handle. It is a defensive key-management tool: you are responsible for protecting
+the master passphrase and the vault, and for using the keys it manages in line
+with your organization's policy and applicable law.
+
 ## Install
 
 Requires Python 3.11 or newer.
