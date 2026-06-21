@@ -1,4 +1,8 @@
-# ghostvault
+<p align="center">
+  <img src="assets/logo.svg" width="120" height="120" alt="ghostvault logo">
+</p>
+
+<h1 align="center">ghostvault</h1>
 
 ghostvault is a key management system (KMS) with envelope encryption, packaged as
 a single command line tool. It generates and manages cryptographic keys, supports
